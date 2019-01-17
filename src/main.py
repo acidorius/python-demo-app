@@ -8,7 +8,7 @@ def index():
 
 @app.route('/version')
 def version():
-	return 'v1.0.0'
+	return 'v1.0.1'
 
 @app.route('/readiness')
 def readiness():
